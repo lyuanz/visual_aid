@@ -1,8 +1,3 @@
-For all aims, reduce alignment radius and steric radius as suggested by Pawan and Tsuyoshi.
-Keep a log book, showing all the equations used.
-Change all noise to Gaussian noise.
-Unweighted noise should appear in differential equation, so forward Euler's equation should have noise weighted by timestep.
-Comment on base pusher logic doen't match the code. Code is correct, comment is wrong.
 For Aim 2, the angle of the ghost swimmer is incorrect. Currently, it's set as 0, but it should be negative of the angle of the original swimmer.
 For Aim 2, remove the fixed_time variable. ghost swimmers should be at the same phase as the original swimmer. Hence, ghost.time = p.time.
 For Aim 2, alignment radius between swimmers and the images should be the same as between swimmers. 
