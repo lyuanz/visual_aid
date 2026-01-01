@@ -1,3 +1,4 @@
+The alignment term is incorrect. It assumes pusher throughout. Alignment equation itself depends on the current state (pusher/puller) of the swimmer.
 For Aim 2, the angle of the ghost swimmer is incorrect. Currently, it's set as 0, but it should be negative of the angle of the original swimmer.
 For Aim 2, remove the fixed_time variable. ghost swimmers should be at the same phase as the original swimmer. Hence, ghost.time = p.time.
 For Aim 2, alignment radius between swimmers and the images should be the same as between swimmers. 
